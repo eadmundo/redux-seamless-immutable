@@ -24,6 +24,7 @@
     "jwt"
   ],
   "author": "Edward Stone <edwardjstone@yahoo.com>",
+  "repository": "https://github.com/eadmundo/redux-seamless-immutable",
   "license": "MIT",
   "dependencies": {
     "react-router-redux": "^4.0.0",
