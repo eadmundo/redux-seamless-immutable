@@ -25,6 +25,10 @@
   ],
   "author": "Edward Stone <edwardjstone@yahoo.com>",
   "repository": "https://github.com/eadmundo/redux-seamless-immutable",
+  "bugs": {
+    "url": "https://github.com/eadmundo/redux-seamless-immutable/issues"
+  },
+  "homepage": "https://github.com/eadmundo/redux-seamless-immutable",
   "license": "MIT",
   "dependencies": {
     "react-router-redux": "^4.0.0",
@@ -56,7 +60,7 @@
   "npmName": "redux-seamless-immutable",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "/lib/",
       "files": [
         "*.js"
       ]
