@@ -18,10 +18,9 @@
   "keywords": [
     "javascript",
     "redux",
-    "middleware",
-    "api",
-    "token",
-    "jwt"
+    "immutable",
+    "seamless",
+    "router"
   ],
   "author": "Edward Stone <edwardjstone@yahoo.com>",
   "repository": "https://github.com/eadmundo/redux-seamless-immutable",
