@@ -5,7 +5,7 @@ export default function combineReducers(reducers) {
   return (inputState, action) => {
     return Immutable(reducerKeys.reduce((reducersObject, reducerName) => {
       let reducer = reducers[reducerName];
-      let reducerState = inputState[reducerName];
+      let reducerState = inputState && inputState[reducerName];
       reducersObject[reducerName] = reducer(reducerState, action);
       return reducersObject;
     }, {}));
