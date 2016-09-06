@@ -3,11 +3,14 @@ import Immutable from 'seamless-immutable';
 export default function combineReducers(reducers) {
   let reducerKeys = Object.keys(reducers);
   return (inputState=Immutable({}), action) => {
-    return Immutable(reducerKeys.reduce((reducersObject, reducerName) => {
+    let newState = Immutable(inputState);
+
+    reducerKeys.forEach(reducerName => {
       let reducer = reducers[reducerName];
       let reducerState = inputState[reducerName];
-      reducersObject[reducerName] = reducer(reducerState, action);
-      return reducersObject;
-    }, {}));
+      newState = newState.set(reducerName, reducer(reducerState, action));
+    });
+
+    return newState;
   }
 }
