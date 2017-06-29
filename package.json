@@ -10,11 +10,6 @@
     "prepublish": "npm run build",
     "test": "mocha --compilers js:babel-core/register --recursive ./test"
   },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  },
   "keywords": [
     "javascript",
     "redux",
