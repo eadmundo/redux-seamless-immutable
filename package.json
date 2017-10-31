@@ -31,7 +31,7 @@
   "license": "MIT",
   "dependencies": {
     "react-router-redux": "^4.0.0",
-    "seamless-immutable": "^6.1.0"
+    "seamless-immutable": "^7.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
