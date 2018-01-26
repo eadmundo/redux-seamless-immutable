@@ -1,6 +1,6 @@
 {
   "name": "redux-seamless-immutable",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Helpers for using seamless-immutable with Redux",
   "main": "lib/index.js",
   "scripts": {
